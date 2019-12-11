@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CM</title>
+</head>
+<body>
+	<h1>TP Formulaire</h1>
+	<hr>
+	<table>
+		<tr>
+			<td>ID :</td>
+			<td>
+				<input id="id" type="text" name="id">
+			</td>
+		</tr>
+		<tr>
+			<td>Nom :</td>
+			<td>
+				<input id="nom" type="text" name="nom">
+			</td>
+		</tr>
+		<tr>
+			<td>Prenom :</td>
+			<td>
+				<input id="prenom" type="text" name="prenom">
+			</td>
+		</tr>
+	</table>
+
+	<button onclick="initUser()">
+		Nouveau
+ 	</button>
+	<button onclick="addUser()">
+		Valider
+	</button>
+
+	<hr>
+
+	<h2>Data :</h2>
+
+
+
+	<table id="data" style="border: 1px solid black">
+		<tr id="head">
+			<td>ID</td>
+			<td>Nom</td>
+			<td>Prenom</td>
+			<td style="text-align: center">Actions</td>
+		</tr>
+	</table>
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
